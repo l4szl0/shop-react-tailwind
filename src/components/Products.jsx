@@ -9,7 +9,7 @@ const Products = ({ products }) => {
         <h1 className="text-5xl font-semibold text-[#323232]">See Products</h1>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 mx-auto">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-auto">
         {products.map((product, index) => {
           return (
             <div
